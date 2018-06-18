@@ -1,7 +1,8 @@
 body {
 	font-family: Georgia, serif;
 	margin: 0;
-    background: url("../image/ridewithfriends.jpg")
+    background-image: url("../image/road-trip.jpg");
+    
 }
 body,html {
     height: 100%;
@@ -44,7 +45,7 @@ h1,h2,h3,h4,h5,h6,span {
 .intro {
     padding-top:0px;
     text-align: center;
-    background: url("../img/road-trip.jpg") ;
+    image-resolution: 100 * 100;
     background-size: cover;
     display: inline;
     justify-content: center;
@@ -165,7 +166,7 @@ h1,h2,h3,h4,h5,h6,span {
     background-color: rgb(245, 245, 245);
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     border-radius: 6px;
-    background-image: url("../image/sunset.jpg")
+    background-color: none;
   }
 
   /*sign in form*/
